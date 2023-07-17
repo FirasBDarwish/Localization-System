@@ -36,3 +36,4 @@ The Central computer houses most of the software behind our position tracking op
 * VIVE Console
 * Visual Studio
 
+## 4. Software
