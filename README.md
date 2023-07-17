@@ -37,3 +37,12 @@ The Central computer houses most of the software behind our position tracking op
 * Visual Studio
 
 ## 4. Software
+
+use visual studio code to do xyz
+
+Once you've saved/exported a .txt file of your debug/output log in Visual Studio, make sure to clean your .txt file manually before moving on to data processing and analysis. This removes any lines in the output log that are related to set-up/system initialization and/or system termination. See the *sample* .txt files in the folders "input (before_cleaning)" and "output (after_cleaning)" for how the .txt files should be edited.
+
+
+
+## Items Still Pending:
+
