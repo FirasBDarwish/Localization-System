@@ -30,7 +30,7 @@ In order not to disrupt the lab space and to offer us the flexibility to adjust 
 
 The Central computer houses most of the software behind our position tracking operation. There are specific hardware requirements for this computer that are listed [here](https://www.vive.com/us/product/vive-pro2/specs/). Make sure to meet the minimum requirements listed for the Vive Pro 2.
 
-# Software to be installed to facilitate set up:
+### Software to be installed to facilitate set up:
 Steam
 SteamVR
 VIVE Console
