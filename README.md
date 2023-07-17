@@ -23,7 +23,7 @@ A synthesis of these other methods and their respective literature sources can b
 The selected, out-of-the-box system is to employ 2 Vive base stations alongside Vive trackers to configure the motion of the trackers based on emitted infrared pulses from the base stations. When compared against other methods along the parameters of cost, ease of access, and accuracy/precision, this external and internal sensor set-up is the most appropriate to the purposes of this study.
 
 ## 3. Set Up
-![IMG-3769](https://github.com/FirasBDarwish/Localization-System/assets/94559551/04646a9f-37dc-41b2-a562-b0cd88848325)
+![IMG-3769](https://github.com/FirasBDarwish/Localization-System/assets/94559551/b431d923-eabe-47f6-a16f-5ae6ef0d2ef4)
 
 There are several moving parts that we had to account for while designing the set-up.
 In order not to disrupt the lab space and to offer us the flexibility to adjust our tracking space (depending on experimental needs), we opted out of fixing the base stations to the walls and selected two tripod extensions. The recomended minimum height for basestation placement is 6ft 6in.
