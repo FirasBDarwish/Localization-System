@@ -35,6 +35,8 @@ The Central computer houses most of the software behind our position tracking op
 * SteamVR
 * VIVE Console
 * Visual Studio
+* "Localization_System_(Data_Upload_and_Pre_Processing).ipynb"
+* samples_vs2017.sln
 
 ## 4. Software
 
