@@ -40,6 +40,7 @@ The Central computer houses most of the software behind our position tracking op
 
 ## 4. Software
 
+### For tracking HMD:
 Once your hardware is set up and you have steamVR and VIVEconsole running, do the following carefully:
 1. Run Visual Studio as administrator
 2. Open Solution and select the file 'samples_vs2017.sln' (also accessible without github compression [here](https://drive.google.com/drive/folders/1IMe8gzdmaPh613JaygjoRtgVKjA9-ax6?usp=sharing))
@@ -52,6 +53,18 @@ If everything is configured properly, you should be able to see your console pri
 Once you've saved/exported a .txt file of your debug/output log in Visual Studio, make sure to clean your .txt file manually before moving on to data processing and analysis. This removes any lines in the output log that are related to set-up/system initialization and/or system termination. See the *sample* .txt files in the folders "input (before_cleaning)" and "output (after_cleaning)" for how the .txt files should be edited.
 
 Then, follow the instructions in "Localization_System_(Data_Upload_and_Pre_Processing).ipynb" found in the GitHub repo to process the .txt file to a Pandas Dataframe and conduct some exploratory analysis.
+
+### For tracking controllers:
+Once your hardware is set up and you have steamVR and VIVEconsole running, do the following carefully:
+1. Run Visual Studio as administrator
+2. Open solution and select the file 'OpenVRTrackingExample.sln' (accessible [here](https://drive.google.com/drive/folders/1La5g4xWDrm0M61xHiKC8yMNwjrBg1I6u?usp=drive_link).
+    - NOTE: DO NOT CHANGE THE FILE WHATSOEVER. ALL HELPER FUNCTIONS HAVE BEEN CONFIGURED AND WRITTEN FOR YOU.
+3. Build 'OpenVRTrackingExample' from the solution explorer.
+4. Click 'Local Windows Debugger'
+
+If everything is configured properly, you should be able to see your console print your left and right controller's position. Save/export console.
+
+*NOTE: it is preferred to change the VR headset's power management settings so that the headset display turns off after 5 minutes, see [instructions here](https://forum.htc.com/topic/6186-htc-vive-tracker-how-to-stay-awake-when-no-movement-for-a-long-while/), as the controller's tracking will pause if HMD is not awake.
 
 ## 5. Processing and Transforming:
 
