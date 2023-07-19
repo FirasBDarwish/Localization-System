@@ -36,7 +36,8 @@ The Central computer houses most of the software behind our position tracking op
 * VIVE Console
 * Visual Studio
 * "Localization_System_(Data_Upload_and_Pre_Processing).ipynb"
-* samples_vs2017.sln
+* samples_vs2017.sln *(for tracking HMD)*
+* OpenVRTrackingExample.sln *(for tracking controllers)*
 
 ## 4. Software
 
