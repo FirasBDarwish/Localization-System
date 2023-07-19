@@ -73,6 +73,12 @@ See Professor Gilbert Strang [Lecture on Orthogonal Procrustes Problem](https://
 
 In the context of our position tracking problem, this allows us to standarize coordinate frames.
 
+Given two set of points {M, N} be two finite size point sets in a finite-dimensional real vector space R^3 which contain M and N points respectively.. If M != N, then we cannot directly use the solution to Orthogonal Procrustes Problem and will require simulatenous pose and correspondance registration, see discussion [here](https://stackoverflow.com/questions/51333836/procrustes-analysis-with-unequal-number-of-points).
+
+This provides us with two underlying mechanisms for mapping a set of points N to a reference set of points M:
+1. Filter N's concentration to match M, such that a solution to the Orthogonal Procrustes Problem can be calculated using scipy.linalg.orthogonal_procrustes
+2. Employ iterative closest point to match each point in N to a point in M. Still exploring different Python implementations.
+
 ### Why is that important?
 This is ultimately a tool to conduct experiments and extensions where accurate and precise 3D tracking in space is needed. We can't simply compare the results of one runtime of this experimental setup to another. We need to geometrically minimize the difference between two point clouds to properly compare them.
 
